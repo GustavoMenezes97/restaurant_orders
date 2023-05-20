@@ -1,7 +1,7 @@
 import pandas as pd
 
-from services.inventory_control import InventoryMapping
-from services.menu_data import MenuData
+from src.services.inventory_control import InventoryMapping
+from src.services.menu_data import MenuData
 
 DATA_PATH = "data/menu_base_data.csv"
 INVENTORY_PATH = "data/inventory_base_data.csv"
